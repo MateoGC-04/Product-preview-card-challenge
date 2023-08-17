@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap');
+
+body{
+    background-color:hsl(30, 38%, 92%) ;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+#contenedor{
+    width: 600px;
+    height: 450px;
+    background-color:hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#contenedor > div {
+    width: 50%;
+}
+#contenedorA{
+    border-radius: 15px 0px 0px 15px;
+    background-image: url("./images/image-product-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#contenedorB{
+    padding: 5%;
+}
+#titulo{
+    font-family: 'Montserrat';
+    color: gray;
+    font-weight: 500;
+}
+#titulo2{
+    font-family: 'Fraunces';
+    font-weight: 700;
+}
+#descripcion{
+    font-family: 'Montserrat';
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+}
+.precio {
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
+.precio a {
+    font-family: 'Montserrat';
+    color: rgb(101, 101, 101);
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+#boton{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    background-color: hsl(158, 36%, 37%);
+    border: hsl(158, 36%, 37%) 2px solid ;
+    border-radius: 5px;
+    padding: 7px 7px;
+    color: white;
+    font-weight: 700;
+}
+.bi bi-cart{
+ font-weight: 700;
+}
